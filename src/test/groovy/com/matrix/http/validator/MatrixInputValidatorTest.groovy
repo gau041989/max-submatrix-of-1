@@ -1,4 +1,4 @@
-package com.matrix.http
+package com.matrix.http.validator
 
 import com.matrix.http.model.Input
 import com.matrix.http.model.InvalidMatrixException
