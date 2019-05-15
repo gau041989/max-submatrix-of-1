@@ -37,7 +37,7 @@ public class MaximumHistogram {
 
         if (histogramArea > details.getMaxArea()) {
             int x = computeOrDefaultToZeroForXBelowTheFloor((currentRow - (input[top] - 1)));
-            return new SubMatrix(input[top], histogramLength, x, top, histogramArea);
+            return new SubMatrix(input[top], histogramLength, x, i - histogramLength, histogramArea);
         }
         return details;
     }

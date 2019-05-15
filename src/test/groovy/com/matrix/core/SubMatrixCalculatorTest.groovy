@@ -48,5 +48,10 @@ class SubMatrixCalculatorTest extends Specification {
                     [0,0,0,1,1,0]
                 ]                   || new SubMatrix(2, 3, 1, 1, 6)
 
+            5 | [
+                    [1,0,1],
+                    [1,1,1]
+            ]                       || new SubMatrix(1, 3, 1, 0, 3)
+
     }
 }
